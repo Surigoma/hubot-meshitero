@@ -1,3 +1,11 @@
+# Description:
+#   Meshitero
+#
+# Commands:
+#   飯テロ - 飯テロします。
+#   飯テロ (回数) - 回数分飯テロします。
+#   飯テロ (キーワード) - キーワードを用いた飯テロをします。
+#   飯テロ (キーワード) (回数) - キーワードを用いて回数分飯テロします。
 cron = require("cron").CronJob;
 google = require("googleapis").customsearch("v1")
 random = require('hubot').Response::random

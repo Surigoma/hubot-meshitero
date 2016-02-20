@@ -1,6 +1,6 @@
 # hubot-meshitero
 https://github.com/Surigoma/hubot-meshi/
-これ使ったら飯テロ.inがサービス終了して辛かったので
+これ使ったら飯テロ.inが~~サービス終了~~大規模リニューアル([Twitter](https://twitter.com/masawada/status/700269827139592192))して辛かったので
 GoogleCustomSearchAPIを利用して飯テロするhubot-scriptです。
 
 ## Installation
@@ -23,6 +23,12 @@ hubot再起動
 
 のどれかでつぶやくとテロります。
 また自動的に夜10時に指定のチャンネルで飯テロします。
+回数はAPI1回につき10件までしか取得できないので10回までです。
+
+## 技術的なこと
+1API消費してランダムに表示します。
+また、同じものが被らないよう工夫しています。
+ちなみに、これをいじれば飯テロだけでなく進捗だめです([Twitter](https://twitter.com/surigomaxxxxxxx/status/701069692107030528))とかもできます。
 
 ## ライセンス
 MIT
