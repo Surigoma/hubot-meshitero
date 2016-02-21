@@ -42,8 +42,8 @@ module.exports = (robot) ->
                 loop
                     url = resp.items[Math.floor(Math.random()*resp.items.length)].link
                     break unless url in log
-            send msg, "#{url}"
-            log.push(url)
+                send msg, "#{url}"
+                log.push(url)
 
 
     new cron '0 0 22 * * *', ->
