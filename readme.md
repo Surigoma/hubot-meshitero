@@ -1,5 +1,5 @@
 # hubot-meshitero
-https://github.com/Surigoma/hubot-meshi/  
+https://github.com/aozora0000/hubot-meshi  
 これ使ったら飯テロ.inが~~サービス終了~~大規模リニューアル([Twitter](https://twitter.com/masawada/status/700269827139592192))して辛かったので  
 GoogleCustomSearchAPIを利用して飯テロするhubot-scriptです。  
 
