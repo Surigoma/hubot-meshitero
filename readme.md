@@ -4,7 +4,7 @@ https://github.com/Surigoma/hubot-meshi/
 GoogleCustomSearchAPIを利用して飯テロするhubot-scriptです。  
 
 ## Installation
-scriptsにmeshi.coffeeを入れる  
+npm install hubot-meshitero --save  
 ↓  
 HUBOT_MESHITERO_CHANNELを設定する  
 (例:export HUBOT_MESHITERO_CHANNEL=#bottest)  

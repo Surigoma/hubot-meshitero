@@ -1,0 +1,23 @@
+{
+  "name": "hubot-meshitero",
+  "version": "1.0.0",
+  "description": "Auto Meshitero System",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Surigoma/hubot-meshitero.git"
+  },
+  "keywords": [
+    "meshitero",
+    "飯テロ"
+  ],
+  "author": "surigoma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Surigoma/hubot-meshitero/issues"
+  },
+  "homepage": "https://github.com/Surigoma/hubot-meshitero#readme"
+}
